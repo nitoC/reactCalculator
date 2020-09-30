@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+*{
+  color:black;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:#222;
+  text-align:center;
+  font-size:17px;
+  font-family:Share Tech Mono;
+}
+#who{
+   width :600px;
+  margin:auto;
+
+}
+#display{
+  font-size:2em;
+}
+#Clear{
+  margin-right:-440px;
+  background-color:blue;
+  width:80px;
+  margin-bottom:5px;
+  margin-top:5px
+}
+#display{
+   height:40px;
+  margin:auto;
+  text-align:right;
+  border:5px inset #999;
+    background-color:#eee;
+      border-radius:4px;
+  box-shadow:4px 4px 4px #111;
+  font-family:Digital;
+  width:600px;
+}
+#cover{
+  background-color:#666;
+  margin:auto;
+  
+}
+
+
+#numButton{
+  margin-top:4%;
+  width:480px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(3,150px)
+}
+button{
+ width:150px;
+  border:none;
+  height:3em;
+    box-shadow:inset -3px -3px 4px 2px #111, inset 2px 2px 3px 2px #ccc;
+      color:white
+}
+button:active{
+    width:150px;
+  border:none;
+  height:3em;
+    box-shadow:inset -3px -3px 4px 2px #111, inset 2px 2px 3px 2px #111;
+  
+}
+section{
+  display:flex;
+  justify-content:space-between;
+
+}
+#aOperator button:active{
+  background-color:darkred;
+  box-shadow:inset -2px -2px 2px 1px #000, inset 2px 2px 2px 1px #111;
+}
+#aOperator button{
+  background-color:darkred;
+  box-shadow:inset -2px -2px 2px 1px #111, inset 2px 2px 2px 1px #f99;
+  width:150px;
+  
+}
